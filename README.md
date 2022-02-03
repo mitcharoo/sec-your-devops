@@ -1,4 +1,4 @@
-# DevSecOps Resources
+# Sec Your DevOps
 
 - [Tools](#tools)
   - [Application Security](#application-security)
