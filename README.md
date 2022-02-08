@@ -105,6 +105,7 @@
 - [AWS Security Arsenal](https://github.com/toniblyx/my-arsenal-of-aws-security-tools): List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
 - [Open Source Web Scanners](https://github.com/psiinon/open-source-web-scanners): A list of open source web security scanners sorted by GitHub stars.
 - [Awesome DevOps](https://github.com/wmariuss/awesome-devops): A curated list of awesome DevOps tools, platforms and resources.
+- [Application Security Tools](https://ishaqmohammed.me/posts/application-security-tools/): Curated list of free/open source application security tools.
 
 ## Books
 
