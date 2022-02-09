@@ -109,4 +109,4 @@
 
 ## Books
 
-- [Securing DevOps](https://www.amazon.com/dp/1617294136): By [Julien Vehent](https://twitter.com/jvehent).
+- [Securing DevOps](https://www.amazon.com/dp/1617294136): by [Julien Vehent](https://twitter.com/jvehent).
