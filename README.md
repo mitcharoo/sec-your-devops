@@ -5,6 +5,7 @@
   - [Delivery Security](#delivery-security)
   - [Secrets](#secrets)
   - [Platform Security](#platform-security)
+  - [Infrastructure as Code](#infrastructure-as-code)
   - [Cloud Security](#cloud-security)
   - [Offensive Tools](#offensive-tools)
   - [Observability](#observability)
@@ -22,7 +23,6 @@
 - [SonarQube](https://github.com/SonarSource/sonarqube): Continuous inspection tool for code quality and security.
 - [Snyk](https://snyk.io/): Static analysis of code, container images, and IaC. CLI, IDE, CI/CD, PaaS.
 - [OWASP Zed Attack Proxy (ZAP)](https://www.zaproxy.org/docs/docker/baseline-scan/): Popular penetration testing tool that can also be leveraged within CI/CD to perform passive baseline scans.
-- [StackHawk](https://www.stackhawk.com/): PaaS DAST tool based on OWASP ZAP. Uses Docker in CI/CD.
 - [ShiftLeft](https://www.shiftleft.io/): PaaS SAST and SCA tool offering scheduled and CI/CD initiated testing.
 - [AllStar](https://github.com/ossf/allstar): Github app to set and enforce repository security policies
 - [It-Depends](https://github.com/trailofbits/it-depends): A tool to automatically build a dependency graph and Software Bill of Materials (SBOM) for packages and arbitrary source code repositories.
@@ -49,6 +49,12 @@
 - [Docker Bench for Security](https://github.com/docker/docker-bench-security): A script that checks for dozens of common best-practices around deploying Docker containers in production.
 - [Inspec](https://github.com/inspec/inspec): Security and compliance testing framework with a human- and machine-readable language for comparing actual versus desired system state.
 
+### Infrastructure as Code
+
+- [tfsec](https://github.com/aquasecurity/tfsec): Static analysis for Terraform code.
+- [checkov](https://github.com/bridgecrewio/checkov): Static code analysis tool with coverage for Terraform, CloudFormation, Kubernetes/Helm, Dockerfiles, Serverless, and ARM templates.
+- [terrascan](https://github.com/accurics/terrascan): Static code analysis tool with coverage for Terraform, Kubernetes/Helm, and Dockerfiles.
+
 ### Cloud Security
 
 - [Cartography](https://github.com/lyft/cartography): A Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
@@ -68,8 +74,8 @@
 - [s3tk](https://github.com/ankane/s3tk): A security toolkit for AWS S3.
 - [Azucar](https://github.com/nccgroup/azucar): Security auditing tool for Azure environments.
 - [Security Hub Automated Response & Remediation](https://github.com/aws-solutions/aws-security-hub-automated-response-and-remediation): An add-on solution that works with AWS Security Hub to provide a ready-to-deploy architecture and a library of automated playbooks.
-- [tfsec](https://github.com/aquasecurity/tfsec): Security scanner for Terraform IaC.
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
+- [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
 
 ### Offensive Tools
 
@@ -90,6 +96,7 @@
 - [IAM Vulnerable](https://github.com/BishopFox/iam-vulnerable): Use Terraform to create your own vulnerable by design AWS IAM privilege escalation playground.
 - [Actions by Example](https://www.actionsbyexample.com/): An introduction to GitHub actions through annotated examples.
 - [OWASP WrongSecrets](https://github.com/commjoen/wrongsecrets): Pwnable application focused on secrets storage.
+- [KustomizeGoat](https://github.com/bridgecrewio/kustomizegoat): Vulnerable Kustomize Kubernetes templates for training and education.
 
 ## News & Social
 
