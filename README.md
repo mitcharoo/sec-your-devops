@@ -81,6 +81,7 @@
 
 - [Pacu](https://github.com/RhinoSecurityLabs/pacu): An AWS exploitation framework.
 - [Stratus Red Team](https://github.com/DataDog/stratus-red-team/): Granular, actionable adversary emulation for the cloud.
+- [PurplePanda](https://github.com/carlospolop/PurplePanda): Identify privilege escalation paths within and across different clouds (currently supports GCP, GitHub, and Kubernetes)
 
 ### Observability
 
