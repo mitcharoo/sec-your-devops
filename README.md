@@ -77,6 +77,7 @@
 - [Security Hub Automated Response & Remediation](https://github.com/aws-solutions/aws-security-hub-automated-response-and-remediation): An add-on solution that works with AWS Security Hub to provide a ready-to-deploy architecture and a library of automated playbooks.
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
 - [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
+- [domain-protect](https://github.com/ovotech/domain-protect): Discover and protect against subdomain takeover vulnerabilities in AWS & Cloudflare.
 
 ### Offensive Tools
 
