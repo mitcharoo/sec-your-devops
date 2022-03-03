@@ -91,6 +91,7 @@
 
 - [MITRE DevSecOps Best Practices Guide](/docs/MITRE_DevSecOps_Best_Practices_Guide_01262020.pdf)
 - [DoD DevSecOps Fundamentals Guidebook](/docs/DoD_DevSecOps_Tools_Activities_Guidebook.pdf)
+- [DoD Enterprise DevSecOps Reference Design](/docs/DoD_Enterprise_DevSecOps_Reference_Design.pdf)
 - [CNCF Software Supply Chain Best Practices](https://github.com/cncf/tag-security/blob/main/supply-chain-security/supply-chain-security-paper/CNCF_SSCP_v1.pdf)
 - [Common Threat Matrix for CI/CD](https://github.com/rung/threat-matrix-cicd): An ATT&CK-like matrix focused on CI/CD pipeline specific risk.
 - [Cloud Security Orienteering Checklist](https://gist.github.com/ramimac/823e52befba373d71bc936d1742768f4): How to orienteer in a cloud environment, dig in to identify the risks that matter, and put together actionable plans that address short, medium, and long term goals.
