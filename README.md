@@ -98,7 +98,7 @@
 - [Common Threat Matrix for CI/CD](https://github.com/rung/threat-matrix-cicd): An ATT&CK-like matrix focused on CI/CD pipeline specific risk.
 - [Cloud Security Orienteering Checklist](https://gist.github.com/ramimac/823e52befba373d71bc936d1742768f4): How to orienteer in a cloud environment, dig in to identify the risks that matter, and put together actionable plans that address short, medium, and long term goals.
 - [Container Security Checklist](https://github.com/krol3/container-security-checklist): Checklist for container security and DevSecOps practices.
-- [DevSecOps Playbook](https://github.com/6mile/DevSecOps-Playbook): A step-by-step guide to implementing a DevSecOps program for any size organization
+- [DevSecOps Playbook](https://github.com/6mile/DevSecOps-Playbook): A step-by-step guide to implementing a DevSecOps program for any size organization.
 
 ## Training
 
@@ -107,6 +107,7 @@
 - [OWASP WrongSecrets](https://github.com/commjoen/wrongsecrets): Pwnable application focused on secrets storage.
 - [KustomizeGoat](https://github.com/bridgecrewio/kustomizegoat): Vulnerable Kustomize Kubernetes templates for training and education.
 - [DevOps The Hard Way](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS): Free labs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS.
+- [Container.Training](https://github.com/jpetazzo/container.training): Slides and code samples for training, tutorials, and workshops about Docker, containers, and Kubernetes.
 
 ## News & Social
 
