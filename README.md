@@ -30,6 +30,7 @@
 - [ClusterFuzzLite](https://github.com/google/clusterfuzzlite): Simple continuous fuzzing that runs in CI.
 - [Scorecard](https://github.com/ossf/scorecard): Security health metrics for open source.
 - [jfrog-npm-tools](https://github.com/jfrog/jfrog-npm-tools): A collection of tools to help audit your NPM dependencies for suspicious packages or continuously monitor dependencies for future security events.
+- [policy-bot](https://github.com/palantir/policy-bot): A GitHub App that enforces approval policies on pull requests.
 
 ### Delivery Security
 
@@ -80,6 +81,7 @@
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
 - [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
 - [domain-protect](https://github.com/ovotech/domain-protect): Discover and protect against subdomain takeover vulnerabilities in AWS & Cloudflare.
+- [awspx](https://github.com/FSecureLABS/awspx): A graph-based tool for visualizing effective access and resource relationships in AWS environments.
 
 ### Offensive Tools
 
@@ -106,8 +108,10 @@
 - [Actions by Example](https://www.actionsbyexample.com/): An introduction to GitHub actions through annotated examples.
 - [OWASP WrongSecrets](https://github.com/commjoen/wrongsecrets): Pwnable application focused on secrets storage.
 - [KustomizeGoat](https://github.com/bridgecrewio/kustomizegoat): Vulnerable Kustomize Kubernetes templates for training and education.
+- [CI/CD Goat](https://github.com/cider-security-research/cicd-goat): A deliberately vulnerable CI/CD environment.
 - [DevOps The Hard Way](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS): Free labs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS.
 - [Container.Training](https://github.com/jpetazzo/container.training): Slides and code samples for training, tutorials, and workshops about Docker, containers, and Kubernetes.
+- [S3 Game Galaxy](https://master.d2av1kz25zeu6f.amplifyapp.com/): A series of challenges to learn S3 features.
 
 ## News & Social
 
