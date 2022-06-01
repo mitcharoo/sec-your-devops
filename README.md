@@ -82,6 +82,8 @@
 - [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
 - [domain-protect](https://github.com/ovotech/domain-protect): Discover and protect against subdomain takeover vulnerabilities in AWS & Cloudflare.
 - [awspx](https://github.com/FSecureLABS/awspx): A graph-based tool for visualizing effective access and resource relationships in AWS environments.
+- [Metabadger](https://github.com/salesforce/metabadger): Automated EC2 Instance Metadata Service upgrade to v2 (IMDSv2).
+- [Remediate AWS IMDSv1](https://github.com/latacora/remediate-AWS-IMDSv1): Simple tool to identify and remediate the use of the AWS EC2 IMDSv1.
 
 ### Offensive Tools
 
