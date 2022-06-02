@@ -132,6 +132,7 @@
 - [Awesome DevOps](https://github.com/wmariuss/awesome-devops): A curated list of awesome DevOps tools, platforms and resources.
 - [Application Security Tools](https://ishaqmohammed.me/posts/application-security-tools/): Curated list of free/open source application security tools.
 - [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening): A collection of awesome security hardening guides, tools and other resources.
+- [SSC Reading List](https://github.com/chainguard-dev/ssc-reading-list): A reading list for software supply-chain security.
 
 ## Books
 
