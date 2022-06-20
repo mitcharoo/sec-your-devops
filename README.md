@@ -2,11 +2,14 @@
 
 - [Tools](#tools)
   - [Application Security](#application-security)
-  - [Delivery Security](#delivery-security)
+  - [CI/CD Security](#cicd-security)
   - [Secrets](#secrets)
   - [Platform Security](#platform-security)
   - [Infrastructure as Code](#infrastructure-as-code)
   - [Cloud Security](#cloud-security)
+  - [Amazon Web Services](#amazon-web-services)
+  - [Microsoft Azure](#microsoft-azure)
+  - [Google Cloud Platform](#google-cloud-platform)
   - [Offensive Tools](#offensive-tools)
   - [Observability](#observability)
 - [Methodology & Frameworks](#methodology--frameworks)
@@ -32,7 +35,7 @@
 - [jfrog-npm-tools](https://github.com/jfrog/jfrog-npm-tools): A collection of tools to help audit your NPM dependencies for suspicious packages or continuously monitor dependencies for future security events.
 - [policy-bot](https://github.com/palantir/policy-bot): A GitHub App that enforces approval policies on pull requests.
 
-### Delivery Security
+### CI/CD Security
 
 - [GitHub Action: Configure AWS Credentials](https://github.com/aws-actions/configure-aws-credentials): Configure AWS credential environment variables for use in other GitHub Actions.
 
@@ -62,29 +65,38 @@
 ### Cloud Security
 
 - [Cartography](https://github.com/lyft/cartography): A Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
-- [Quiet Riot](https://github.com/righteousgambit/quiet-riot): Unauthenticated enumeration of services, roles, and users in an AWS account or in every AWS account in existence.
 - [Prowler](https://github.com/prowler-cloud/prowler): Open source security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness.
 - [ScoutSuite](https://github.com/nccgroup/scoutsuite): Multi-cloud security auditing tool.
-- [CloudMapper](https://github.com/duo-labs/cloudmapper): Helps analyze your AWS environments, including auditing for security issues.
+- [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke): A tool for cleaning up your AWS accounts by nuking (deleting) all resources within it.
+- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
+
+### Amazon Web Services
+
 - [AWS Security Toolbox](https://github.com/z0ph/aws-security-toolbox): Single Docker container combining several popular security tools.
+- [Quiet Riot](https://github.com/righteousgambit/quiet-riot): Unauthenticated enumeration of services, roles, and users in an AWS account or in every AWS account in existence.
+- [CloudMapper](https://github.com/duo-labs/cloudmapper): Helps analyze your AWS environments, including auditing for security issues.
 - [aws-security-viz](https://github.com/anaynayak/aws-security-viz): Visualize your AWS security groups.
 - [AWS CloudSaga](https://github.com/awslabs/aws-cloudsaga): Test security controls and alerts within AWS, using generated alerts based on security events seen by the AWS Customer Incident Response Team (CIRT).
 - [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke): A tool for cleaning up your AWS accounts by nuking (deleting) all resources within it.
-- [Aaia](https://github.com/rams3sh/Aaia): AWS IAM visualizer and anomaly finder.
 - [CloudTracker](https://github.com/duo-labs/cloudtracker): Helps you find over-privileged IAM users and roles by comparing CloudTrail logs with current IAM policies.
 - [PMapper](https://github.com/nccgroup/PMapper): A tool for quickly evaluating IAM permissions in AWS.
-- [CDK-Dia](https://github.com/pistazie/cdk-dia): Automated diagrams of AWS CDK provisioned infrastructure.
 - [CloudJack](https://github.com/prevade/cloudjack): Route53/CloudFront vulnerability assessment utility.
 - [Sandcastle](https://github.com/0xSearches/sandcastle): A Python script for AWS S3 bucket enumeration.
-- [s3tk](https://github.com/ankane/s3tk): A security toolkit for AWS S3.
-- [Azucar](https://github.com/nccgroup/azucar): Security auditing tool for Azure environments.
 - [Security Hub Automated Response & Remediation](https://github.com/aws-solutions/aws-security-hub-automated-response-and-remediation): An add-on solution that works with AWS Security Hub to provide a ready-to-deploy architecture and a library of automated playbooks.
-- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
-- [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
+- [s3tk](https://github.com/ankane/s3tk): A security toolkit for AWS S3.
+- [CDK-Dia](https://github.com/pistazie/cdk-dia): Automated diagrams of AWS CDK provisioned infrastructure.
+- [Aaia](https://github.com/rams3sh/Aaia): AWS IAM visualizer and anomaly finder.
 - [domain-protect](https://github.com/ovotech/domain-protect): Discover and protect against subdomain takeover vulnerabilities in AWS & Cloudflare.
 - [awspx](https://github.com/FSecureLABS/awspx): A graph-based tool for visualizing effective access and resource relationships in AWS environments.
 - [Metabadger](https://github.com/salesforce/metabadger): Automated EC2 Instance Metadata Service upgrade to v2 (IMDSv2).
 - [Remediate AWS IMDSv1](https://github.com/latacora/remediate-AWS-IMDSv1): Simple tool to identify and remediate the use of the AWS EC2 IMDSv1.
+- [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
+
+### Microsoft Azure
+
+- [Azucar](https://github.com/nccgroup/azucar): Security auditing tool for Azure environments.
+
+### Google Cloud Platform
 
 ### Offensive Tools
 
@@ -118,10 +130,12 @@
 
 ## News & Social
 
-- [tl;dr sec](https://tldrsec.com/): Best newsletter source for tools, blog posts, conference talks, and original research.
+- [tl;dr sec](https://tldrsec.com/): Best newsletter source for tools, blog posts, conference talks, and original research. By [Clint Gibler](https://twitter.com/clintgibler).
+- [CloudSecList](https://cloudseclist.com/): A low volume newsletter (delivered once per week) that highlights security-related news focused on the cloud native landscape. By [Marco Lancini](https://twitter.com/lancinimarco).
+- [This Week in Security](https://this.weekinsecurity.com/): A weekly tl;dr cybersecurity newsletter of all the major stuff you missed, but really need to know. By [Zach Whitaker](https://twitter.com/zackwhittaker).
+- [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters): Newsletters and Twitter lists that capture the latest news, summaries of conference talks, research, best practices, tools, events, vulnerabilities, and analysis of trending threats and attacks.
 - [InfoSec: Top 100 Tweeters](https://twitter.com/i/lists/901197194312769536): Curated by [@RayRedacted](https://twitter.com/RayRedacted).
 - [AWS Security Blog](https://aws.amazon.com/blogs/security/): Official announcements, product highlights, and walk-throughs. Optional mailing list.
-- [Awesome Security Newsletters](https://github.com/TalEliyahu/awesome-security-newsletters): Newsletters and Twitter lists that capture the latest news, summaries of conference talks, research, best practices, tools, events, vulnerabilities, and analysis of trending threats and attacks.
 
 ## Other Lists
 
@@ -137,3 +151,4 @@
 ## Books
 
 - [Securing DevOps](https://www.amazon.com/dp/1617294136): by [Julien Vehent](https://twitter.com/jvehent).
+- [Security and Microservice Architecture on AWS: Architecting and Implementing a Secured, Scalable Solution](https://www.amazon.com/dp/1098101464): by Gaurav Raje.
