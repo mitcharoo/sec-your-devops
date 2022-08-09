@@ -65,13 +65,12 @@
 ### Cloud Security
 
 - [Cartography](https://github.com/lyft/cartography): A Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
-- [Prowler](https://github.com/prowler-cloud/prowler): Open source security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness.
 - [ScoutSuite](https://github.com/nccgroup/scoutsuite): Multi-cloud security auditing tool.
-- [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke): A tool for cleaning up your AWS accounts by nuking (deleting) all resources within it.
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
 
 ### Amazon Web Services
 
+- [Prowler](https://github.com/prowler-cloud/prowler): Open source security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness.
 - [AWS Security Toolbox](https://github.com/z0ph/aws-security-toolbox): Single Docker container combining several popular security tools.
 - [Quiet Riot](https://github.com/righteousgambit/quiet-riot): Unauthenticated enumeration of services, roles, and users in an AWS account or in every AWS account in existence.
 - [CloudMapper](https://github.com/duo-labs/cloudmapper): Helps analyze your AWS environments, including auditing for security issues.
@@ -91,6 +90,7 @@
 - [Metabadger](https://github.com/salesforce/metabadger): Automated EC2 Instance Metadata Service upgrade to v2 (IMDSv2).
 - [Remediate AWS IMDSv1](https://github.com/latacora/remediate-AWS-IMDSv1): Simple tool to identify and remediate the use of the AWS EC2 IMDSv1.
 - [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
+- [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke): A tool for cleaning up your AWS accounts by nuking (deleting) all resources within it.
 
 ### Microsoft Azure
 
@@ -116,9 +116,11 @@
 - [Cloud Security Orienteering Checklist](https://gist.github.com/ramimac/823e52befba373d71bc936d1742768f4): How to orienteer in a cloud environment, dig in to identify the risks that matter, and put together actionable plans that address short, medium, and long term goals.
 - [Container Security Checklist](https://github.com/krol3/container-security-checklist): Checklist for container security and DevSecOps practices.
 - [DevSecOps Playbook](https://github.com/6mile/DevSecOps-Playbook): A step-by-step guide to implementing a DevSecOps program for any size organization.
+- [Azure Threat Research Matrix](https://microsoft.github.io/Azure-Threat-Research-Matrix/): Knowledge base built to document known TTPs within Azure and Azure AD.
 
 ## Training
 
+- [Mandiant Azure Workshop](https://github.com/mandiant/Azure_Workshop): A vulnerable-by-design Azure lab containing 2 x attack paths with common misconfigurations.
 - [IAM Vulnerable](https://github.com/BishopFox/iam-vulnerable): Use Terraform to create your own vulnerable by design AWS IAM privilege escalation playground.
 - [Actions by Example](https://www.actionsbyexample.com/): An introduction to GitHub actions through annotated examples.
 - [OWASP WrongSecrets](https://github.com/commjoen/wrongsecrets): Pwnable application focused on secrets storage.
@@ -152,3 +154,4 @@
 
 - [Securing DevOps](https://www.amazon.com/dp/1617294136): by [Julien Vehent](https://twitter.com/jvehent).
 - [Security and Microservice Architecture on AWS: Architecting and Implementing a Secured, Scalable Solution](https://www.amazon.com/dp/1098101464): by Gaurav Raje.
+- [Container Security: Fundamental Technology Concepts that Protect Containerized Applications](https://www.amazon.com/dp/1492056707): by [Liz Rice](https://twitter.com/lizrice).
