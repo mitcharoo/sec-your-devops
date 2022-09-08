@@ -43,11 +43,9 @@
 
 - [Mozilla SOPS](https://github.com/mozilla/sops): Simple and flexible tool for managing secrets.
 - [GitGuardian](https://www.gitguardian.com/): Scan Github repositories for secrets, CLI, CI/CD, PaaS.
-- [aws-vault](https://github.com/99designs/aws-vault): A vault for securely storing and accessing AWS credentials in development environments.
 
 ### Platform Security
 
-- [AWS Elastic Container Registry](https://docs.aws.amazon.com/AmazonECR/latest/userguide/image-scanning.html): AWS-native solution for container image hosting and vulnerability scanning.
 - [Sysdig](https://github.com/draios/sysdig): Linux system exploration and troubleshooting tool with first class support for containers.
 - [Syft](https://github.com/anchore/syft): CLI tool and library for generating a Software Bill of Materials from container images and filesystems.
 - [Mozzila SSL Config](https://ssl-config.mozilla.org/): Secure SSL configuration generator.
@@ -91,6 +89,8 @@
 - [Remediate AWS IMDSv1](https://github.com/latacora/remediate-AWS-IMDSv1): Simple tool to identify and remediate the use of the AWS EC2 IMDSv1.
 - [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
 - [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke): A tool for cleaning up your AWS accounts by nuking (deleting) all resources within it.
+- [Assisted Log Enabler](https://github.com/awslabs/assisted-log-enabler-for-aws): Find AWS resources that are not logging and turn them on.
+- [aws-vault](https://github.com/99designs/aws-vault): A vault for securely storing and accessing AWS credentials in development environments. 
 
 ### Microsoft Azure
 
