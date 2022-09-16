@@ -60,6 +60,7 @@
 - [checkov](https://github.com/bridgecrewio/checkov): Static code analysis tool with coverage for Terraform, CloudFormation, Kubernetes/Helm, Dockerfiles, Serverless, and ARM templates.
 - [terrascan](https://github.com/accurics/terrascan): Static code analysis tool with coverage for Terraform, Kubernetes/Helm, and Dockerfiles.
 - [Azure Terrafy](https://github.com/Azure/aztfy): A tool to bring existing Azure resources under Terraform's management.
+- [Terraform IAM Policy Validator](https://github.com/awslabs/terraform-iam-policy-validator): A command line tool that validates AWS IAM Policies in a Terraform template against AWS IAM best practice.
 
 ### Cloud Security
 
