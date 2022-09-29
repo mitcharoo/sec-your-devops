@@ -38,6 +38,7 @@
 ### CI/CD Security
 
 - [GitHub Action: Configure AWS Credentials](https://github.com/aws-actions/configure-aws-credentials): Configure AWS credential environment variables for use in other GitHub Actions.
+- [actionlint](https://github.com/rhysd/actionlint): Static checker for GitHub Actions workflow files.
 
 ### Secrets
 
@@ -92,7 +93,7 @@
 - [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
 - [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke): A tool for cleaning up your AWS accounts by nuking (deleting) all resources within it.
 - [Assisted Log Enabler](https://github.com/awslabs/assisted-log-enabler-for-aws): Find AWS resources that are not logging and turn them on.
-- [aws-vault](https://github.com/99designs/aws-vault): A vault for securely storing and accessing AWS credentials in development environments. 
+- [aws-vault](https://github.com/99designs/aws-vault): A vault for securely storing and accessing AWS credentials in development environments.
 
 ### Microsoft Azure
 
