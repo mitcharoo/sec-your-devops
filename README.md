@@ -46,6 +46,7 @@
 - [GitGuardian](https://www.gitguardian.com/): Scan Github repositories for secrets, CLI, CI/CD, PaaS.
 - [git-secrets](https://github.com/awslabs/git-secrets): Prevents you from committing secrets and credentials into git repositories.
 - [git-hound](https://github.com/tillson/git-hound): Reconnaissance tool for GitHub code search. Finds exposed API keys using pattern matching, commit history searching, and a unique result scoring system.
+- [repo-supervisor](https://github.com/auth0/repo-supervisor): Scans GitHub repositories for security misconfigurations, passwords, and secrets.
 
 ### Platform Security
 
