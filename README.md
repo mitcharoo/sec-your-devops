@@ -97,6 +97,7 @@
 - [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke): A tool for cleaning up your AWS accounts by nuking (deleting) all resources within it.
 - [Assisted Log Enabler](https://github.com/awslabs/assisted-log-enabler-for-aws): Find AWS resources that are not logging and turn them on.
 - [aws-vault](https://github.com/99designs/aws-vault): A vault for securely storing and accessing AWS credentials in development environments.
+- [TrailScraper](https://github.com/flosell/trailscraper?ck_subscriber_id=1640233537): A command-line tool to get valuable information out of AWS CloudTrail.
 
 ### Microsoft Azure
 
@@ -156,6 +157,7 @@
 - [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening): A collection of awesome security hardening guides, tools and other resources.
 - [Awesome Container Tinkering](https://github.com/iximiuz/awesome-container-tinkering): A list of tools to tinker with containers.
 - [SSC Reading List](https://github.com/chainguard-dev/ssc-reading-list): A reading list for software supply-chain security.
+- [AWSome Pentesting Cheatsheet](https://github.com/pop3ret/AWSome-Pentesting/blob/main/AWSome-Pentesting-Cheatsheet.md): A guide to help pentesters learn more about AWS misconfigurations and ways to abuse them.
 
 ## Books
 
