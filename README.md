@@ -35,7 +35,7 @@
 - [Scorecard](https://github.com/ossf/scorecard): Security health metrics for open source.
 - [jfrog-npm-tools](https://github.com/jfrog/jfrog-npm-tools): A collection of tools to help audit your NPM dependencies for suspicious packages or continuously monitor dependencies for future security events.
 - [Dastardly](https://github.com/PortSwigger/dastardly-github-action): Runs a scan using Dastardly by Burp Suite against a target site and creates a JUnit XML report for the scan on completion.
-- [hijagger](https://github.com/firefart/hijagger):Checks all maintainers of all NPM and Pypi packages for hijackable packages through domain re-registration.
+- [hijagger](https://github.com/firefart/hijagger): Checks all maintainers of all NPM and Pypi packages for hijackable packages through domain re-registration.
 
 ### Source Code Management
 
