@@ -2,6 +2,7 @@
 
 - [Tools](#tools)
   - [Application Security](#application-security)
+  - [Source Code Management](#source-code-management)
   - [CI/CD Security](#cicd-security)
   - [Secrets](#secrets)
   - [Platform Security](#platform-security)
@@ -33,12 +34,19 @@
 - [ClusterFuzzLite](https://github.com/google/clusterfuzzlite): Simple continuous fuzzing that runs in CI.
 - [Scorecard](https://github.com/ossf/scorecard): Security health metrics for open source.
 - [jfrog-npm-tools](https://github.com/jfrog/jfrog-npm-tools): A collection of tools to help audit your NPM dependencies for suspicious packages or continuously monitor dependencies for future security events.
+- [Dastardly](https://github.com/PortSwigger/dastardly-github-action): Runs a scan using Dastardly by Burp Suite against a target site and creates a JUnit XML report for the scan on completion.
+- [hijagger](https://github.com/firefart/hijagger):Checks all maintainers of all NPM and Pypi packages for hijackable packages through domain re-registration.
+
+### Source Code Management
+
+- [GitGat](https://github.com/scribe-public/gitgat): A tool to evaluate GitHub security posture.
 - [policy-bot](https://github.com/palantir/policy-bot): A GitHub App that enforces approval policies on pull requests.
 
 ### CI/CD Security
 
 - [GitHub Action: Configure AWS Credentials](https://github.com/aws-actions/configure-aws-credentials): Configure AWS credential environment variables for use in other GitHub Actions.
 - [actionlint](https://github.com/rhysd/actionlint): Static checker for GitHub Actions workflow files.
+- [Ratchet](https://github.com/sethvargo/ratchet): A tool for securing CI/CD workflows with version pinning.
 
 ### Secrets
 
@@ -47,6 +55,7 @@
 - [git-secrets](https://github.com/awslabs/git-secrets): Prevents you from committing secrets and credentials into git repositories.
 - [git-hound](https://github.com/tillson/git-hound): Reconnaissance tool for GitHub code search. Finds exposed API keys using pattern matching, commit history searching, and a unique result scoring system.
 - [repo-supervisor](https://github.com/auth0/repo-supervisor): Scans GitHub repositories for security misconfigurations, passwords, and secrets.
+- [TruffleHog](https://github.com/trufflesecurity/trufflehog): A tool to find credentials all over the place.
 
 ### Platform Security
 
@@ -79,7 +88,6 @@
 - [Quiet Riot](https://github.com/righteousgambit/quiet-riot): Unauthenticated enumeration of services, roles, and users in an AWS account or in every AWS account in existence.
 - [CloudMapper](https://github.com/duo-labs/cloudmapper): Helps analyze your AWS environments, including auditing for security issues.
 - [aws-security-viz](https://github.com/anaynayak/aws-security-viz): Visualize your AWS security groups.
-- [AWS CloudSaga](https://github.com/awslabs/aws-cloudsaga): Test security controls and alerts within AWS, using generated alerts based on security events seen by the AWS Customer Incident Response Team (CIRT).
 - [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke): A tool for cleaning up your AWS accounts by nuking (deleting) all resources within it.
 - [CloudTracker](https://github.com/duo-labs/cloudtracker): Helps you find over-privileged IAM users and roles by comparing CloudTrail logs with current IAM policies.
 - [PMapper](https://github.com/nccgroup/PMapper): A tool for quickly evaluating IAM permissions in AWS.
@@ -98,6 +106,7 @@
 - [Assisted Log Enabler](https://github.com/awslabs/assisted-log-enabler-for-aws): Find AWS resources that are not logging and turn them on.
 - [aws-vault](https://github.com/99designs/aws-vault): A vault for securely storing and accessing AWS credentials in development environments.
 - [TrailScraper](https://github.com/flosell/trailscraper?ck_subscriber_id=1640233537): A command-line tool to get valuable information out of AWS CloudTrail.
+- [EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock): A tool to simulate Amazon EC2 instance metadata.
 
 ### Microsoft Azure
 
@@ -112,6 +121,9 @@
 - [PurplePanda](https://github.com/carlospolop/PurplePanda): Identify privilege escalation paths within and across different clouds (currently supports GCP, GitHub, and Kubernetes)
 
 ### Observability
+
+- [DefectDojo](https://github.com/DefectDojo/django-DefectDojo): DevSecOps and vulnerability management tool.
+- [AWS CloudSaga](https://github.com/awslabs/aws-cloudsaga): Test security controls and alerts within AWS, using generated alerts based on security events seen by the AWS Customer Incident Response Team (CIRT).
 
 ## Methodology & Frameworks
 
@@ -136,6 +148,7 @@
 - [DevOps The Hard Way](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS): Free labs for setting up an entire workflow and DevOps environment from a real-world perspective in AWS.
 - [Container.Training](https://github.com/jpetazzo/container.training): Slides and code samples for training, tutorials, and workshops about Docker, containers, and Kubernetes.
 - [S3 Game Galaxy](https://master.d2av1kz25zeu6f.amplifyapp.com/): A series of challenges to learn S3 features.
+- [TerraGoat](https://github.com/bridgecrewio/terragoat): A terraformed learning and training environment that demonstrates how common configuration errors can find their way into production cloud environments. Covers AWS, Azure, and GCP.
 
 ## News & Social
 
