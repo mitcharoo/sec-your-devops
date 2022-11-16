@@ -107,6 +107,7 @@
 - [aws-vault](https://github.com/99designs/aws-vault): A vault for securely storing and accessing AWS credentials in development environments.
 - [TrailScraper](https://github.com/flosell/trailscraper?ck_subscriber_id=1640233537): A command-line tool to get valuable information out of AWS CloudTrail.
 - [EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock): A tool to simulate Amazon EC2 instance metadata.
+- [aws-sso-reporter](https://github.com/onemorepereira/aws-sso-reporter): Uses the AWS SSO API to list all users, accounts, permission sets etc. and dumps it into a CSV file for additional parsing or viewing.
 
 ### Microsoft Azure
 
