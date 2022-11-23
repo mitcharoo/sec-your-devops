@@ -36,6 +36,7 @@
 - [jfrog-npm-tools](https://github.com/jfrog/jfrog-npm-tools): A collection of tools to help audit your NPM dependencies for suspicious packages or continuously monitor dependencies for future security events.
 - [Dastardly](https://github.com/PortSwigger/dastardly-github-action): Runs a scan using Dastardly by Burp Suite against a target site and creates a JUnit XML report for the scan on completion.
 - [hijagger](https://github.com/firefart/hijagger): Checks all maintainers of all NPM and Pypi packages for hijackable packages through domain re-registration.
+- [GuardDog](https://github.com/DataDog/guarddog): A CLI tool to identify malicious PyPI packages.
 
 ### Source Code Management
 
@@ -116,6 +117,8 @@
 
 ### Google Cloud Platform
 
+- [remora](https://github.com/GoogleCloudPlatform/active-assist/tree/main/remora-project-cleaner): A tool that automates the lifecycle management of unused projects in an organization.
+
 ### Offensive Tools
 
 - [Pacu](https://github.com/RhinoSecurityLabs/pacu): An AWS exploitation framework.
@@ -129,6 +132,8 @@
 
 ## Methodology & Frameworks
 
+- [NIST Software Supply Chain and DevOps Security Practices](/docs/NIST_Software_Supply_Chain_and_DevOps_Security_Practices.pdf)
+- [CIS Software Supply Chain Security Guide v1.0](/docs/CIS_Software_Supply_Chain_Security_Guide_v1.0.pdf)
 - [MITRE DevSecOps Best Practices Guide](/docs/MITRE_DevSecOps_Best_Practices_Guide_01262020.pdf)
 - [DoD DevSecOps Fundamentals Guidebook](/docs/DoD_DevSecOps_Tools_Activities_Guidebook.pdf)
 - [DoD Enterprise DevSecOps Reference Design](/docs/DoD_Enterprise_DevSecOps_Reference_Design.pdf)
@@ -151,6 +156,7 @@
 - [Container.Training](https://github.com/jpetazzo/container.training): Slides and code samples for training, tutorials, and workshops about Docker, containers, and Kubernetes.
 - [S3 Game Galaxy](https://master.d2av1kz25zeu6f.amplifyapp.com/): A series of challenges to learn S3 features.
 - [TerraGoat](https://github.com/bridgecrewio/terragoat): A terraformed learning and training environment that demonstrates how common configuration errors can find their way into production cloud environments. Covers AWS, Azure, and GCP.
+- [SadServers](https://sadservers.com/): A SaaS where users can test their Linux troubleshooting skills on real Linux servers in a "Capture the Flag" fashion.
 
 ## News & Social
 
