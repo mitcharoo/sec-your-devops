@@ -3,7 +3,7 @@
 - [Tools](#tools)
   - [Application Security](#application-security)
   - [Source Code Management](#source-code-management)
-  - [CI/CD Security](#cicd-security)
+  - [CI/CD](#cicd)
   - [Secrets](#secrets)
   - [Platform Security](#platform-security)
   - [Infrastructure as Code](#infrastructure-as-code)
@@ -43,11 +43,12 @@
 - [GitGat](https://github.com/scribe-public/gitgat): A tool to evaluate GitHub security posture.
 - [policy-bot](https://github.com/palantir/policy-bot): A GitHub App that enforces approval policies on pull requests.
 
-### CI/CD Security
+### CI/CD
 
 - [GitHub Action: Configure AWS Credentials](https://github.com/aws-actions/configure-aws-credentials): Configure AWS credential environment variables for use in other GitHub Actions.
 - [actionlint](https://github.com/rhysd/actionlint): Static checker for GitHub Actions workflow files.
 - [Ratchet](https://github.com/sethvargo/ratchet): A tool for securing CI/CD workflows with version pinning.
+- [GitHub Actions Importer](https://github.com/github/gh-actions-importer): Helps you plan and automate the migration of Azure DevOps, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions.
 
 ### Secrets
 
@@ -110,6 +111,9 @@
 - [TrailScraper](https://github.com/flosell/trailscraper?ck_subscriber_id=1640233537): A command-line tool to get valuable information out of AWS CloudTrail.
 - [EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock): A tool to simulate Amazon EC2 instance metadata.
 - [aws-sso-reporter](https://github.com/onemorepereira/aws-sso-reporter): Uses the AWS SSO API to list all users, accounts, permission sets etc. and dumps it into a CSV file for additional parsing or viewing.
+- [Sustainable Personal Accounts](https://github.com/reply-fr/sustainable-personal-accounts): Adds custom maintenance windows for AWS accounts, allowing automatic resource preparation and purging.
+- [Disposable Cloud Environment](https://github.com/Optum/dce): Allows users to "lease" an AWS account for a defined period of time and with a limited budget. At the end of the lease, or if the lease's budget is reached, the account is wiped clean and returned to the account pool so it may be leased again.
+- [superwerker](https://github.com/superwerker/superwerker): A free, open-source solution that lets you quickly set up an AWS Cloud environment following best practices for security and efficiency.
 
 ### Microsoft Azure
 
