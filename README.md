@@ -42,6 +42,7 @@
 
 - [GitGat](https://github.com/scribe-public/gitgat): A tool to evaluate GitHub security posture.
 - [policy-bot](https://github.com/palantir/policy-bot): A GitHub App that enforces approval policies on pull requests.
+- [Github Analyzer](https://github.com/crashappsec/github-analyzer): A tool to check the security settings of Github Organizations.
 
 ### CI/CD
 
@@ -77,6 +78,7 @@
 - [terrascan](https://github.com/accurics/terrascan): Static code analysis tool with coverage for Terraform, Kubernetes/Helm, and Dockerfiles.
 - [Azure Terrafy](https://github.com/Azure/aztfy): A tool to bring existing Azure resources under Terraform's management.
 - [Terraform IAM Policy Validator](https://github.com/awslabs/terraform-iam-policy-validator): A command line tool that validates AWS IAM Policies in a Terraform template against AWS IAM best practice.
+- [Pike](https://github.com/JamesWoolfenden/pike): A tool to determine the minimum permissions required for a Terraform run.
 
 ### Cloud Security
 
@@ -161,6 +163,7 @@
 - [S3 Game Galaxy](https://master.d2av1kz25zeu6f.amplifyapp.com/): A series of challenges to learn S3 features.
 - [TerraGoat](https://github.com/bridgecrewio/terragoat): A terraformed learning and training environment that demonstrates how common configuration errors can find their way into production cloud environments. Covers AWS, Azure, and GCP.
 - [SadServers](https://sadservers.com/): A SaaS where users can test their Linux troubleshooting skills on real Linux servers in a "Capture the Flag" fashion.
+- [GCPGoat](https://github.com/ine-labs/GCPGoat): Vulnerable by design GCP infrastructure featuring the OWASP Top 10 web application security risks (2021) and other misconfigurations.
 
 ## News & Social
 
@@ -173,6 +176,7 @@
 
 ## Other Lists
 
+-[Open Source Security Index](https://opensourcesecurityindex.io/): A list of the most popular & fastest growing open source security projects on GitHub.
 - [HOUDINI](https://github.com/cybersecsi/HOUDINI): Hundreds of offensive and useful Docker images for network intrusion.
 - [AWS Customer Security Incidents](https://github.com/ramimac/aws-customer-security-incidents): A repository tracking known breaches of AWS customers.
 - [AWS Security Arsenal](https://github.com/toniblyx/my-arsenal-of-aws-security-tools): List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
