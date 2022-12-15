@@ -176,7 +176,7 @@
 
 ## Other Lists
 
--[Open Source Security Index](https://opensourcesecurityindex.io/): A list of the most popular & fastest growing open source security projects on GitHub.
+- [Open Source Security Index](https://opensourcesecurityindex.io/): A list of the most popular & fastest growing open source security projects on GitHub.
 - [HOUDINI](https://github.com/cybersecsi/HOUDINI): Hundreds of offensive and useful Docker images for network intrusion.
 - [AWS Customer Security Incidents](https://github.com/ramimac/aws-customer-security-incidents): A repository tracking known breaches of AWS customers.
 - [AWS Security Arsenal](https://github.com/toniblyx/my-arsenal-of-aws-security-tools): List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
