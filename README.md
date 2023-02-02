@@ -50,6 +50,7 @@
 - [actionlint](https://github.com/rhysd/actionlint): Static checker for GitHub Actions workflow files.
 - [Ratchet](https://github.com/sethvargo/ratchet): A tool for securing CI/CD workflows with version pinning.
 - [GitHub Actions Importer](https://github.com/github/gh-actions-importer): Helps you plan and automate the migration of Azure DevOps, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions.
+- [GroovyWaiter](https://github.com/AnubisSec/GroovyWaiter): Jenkins enumeration and remediation tool.
 
 ### Secrets
 
