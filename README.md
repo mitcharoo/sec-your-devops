@@ -61,6 +61,7 @@
 - [repo-supervisor](https://github.com/auth0/repo-supervisor): Scans GitHub repositories for security misconfigurations, passwords, and secrets.
 - [TruffleHog](https://github.com/trufflesecurity/trufflehog): A tool to find credentials all over the place.
 - [S3cret Scanner](https://github.com/Eilonh/s3crets_scanner): A tool designed to provide a complementary layer for the Amazon S3 Security Best Practices by proactively hunting secrets in public S3 buckets.
+- [Gitleaks](https://github.com/zricethezav/gitleaks): A SAST tool for detecting and preventing hardcoded secrets in git repos.
 
 ### Platform Security
 
@@ -131,6 +132,7 @@
 - [Pacu](https://github.com/RhinoSecurityLabs/pacu): An AWS exploitation framework.
 - [Stratus Red Team](https://github.com/DataDog/stratus-red-team/): Granular, actionable adversary emulation for the cloud.
 - [PurplePanda](https://github.com/carlospolop/PurplePanda): Identify privilege escalation paths within and across different clouds (currently supports GCP, GitHub, and Kubernetes)
+- [Gato](https://github.com/praetorian-inc/gato): GitHub self-hosted runner enumeration and attack tool.
 
 ### Observability
 
