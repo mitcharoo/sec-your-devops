@@ -62,6 +62,7 @@
 - [TruffleHog](https://github.com/trufflesecurity/trufflehog): A tool to find credentials all over the place.
 - [S3cret Scanner](https://github.com/Eilonh/s3crets_scanner): A tool designed to provide a complementary layer for the Amazon S3 Security Best Practices by proactively hunting secrets in public S3 buckets.
 - [Gitleaks](https://github.com/zricethezav/gitleaks): A SAST tool for detecting and preventing hardcoded secrets in git repos.
+- [Secrets Patterns DB](https://github.com/mazen160/secrets-patterns-db): The largest open-source database for detecting secrets, API keys, passwords, tokens, and more.
 
 ### Platform Security
 
