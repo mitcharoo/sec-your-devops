@@ -88,6 +88,7 @@
 - [Cartography](https://github.com/lyft/cartography): A Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
 - [ScoutSuite](https://github.com/nccgroup/scoutsuite): Multi-cloud security auditing tool.
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
+- [Cloudlist](https://github.com/projectdiscovery/cloudlist): a tool for listing Assets from multiple Cloud Providers.
 
 ### Amazon Web Services
 
