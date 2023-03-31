@@ -120,6 +120,8 @@
 - [Sustainable Personal Accounts](https://github.com/reply-fr/sustainable-personal-accounts): Adds custom maintenance windows for AWS accounts, allowing automatic resource preparation and purging.
 - [Disposable Cloud Environment](https://github.com/Optum/dce): Allows users to "lease" an AWS account for a defined period of time and with a limited budget. At the end of the lease, or if the lease's budget is reached, the account is wiped clean and returned to the account pool so it may be leased again.
 - [superwerker](https://github.com/superwerker/superwerker): A free, open-source solution that lets you quickly set up an AWS Cloud environment following best practices for security and efficiency.
+- [SAML2AWS](https://github.com/Versent/saml2aws): CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP.
+- [LambdaLooter](https://github.com/StateFarmIns/LambdaLooter): A tool to help reduce the amount of time it takes to review AWS Lambda code.
 
 ### Microsoft Azure
 
