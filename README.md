@@ -42,6 +42,7 @@
 - [GitGat](https://github.com/scribe-public/gitgat): A tool to evaluate GitHub security posture.
 - [policy-bot](https://github.com/palantir/policy-bot): A GitHub App that enforces approval policies on pull requests.
 - [Github Analyzer](https://github.com/crashappsec/github-analyzer): A tool to check the security settings of Github Organizations.
+- [ToBeReviewed Bot](https://github.com/tailscale/ToBeReviewedBot): GitHub App to watch for PRs merged without a reviewer approving.
 
 ### CI/CD
 
