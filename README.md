@@ -122,6 +122,7 @@
 - [superwerker](https://github.com/superwerker/superwerker): A free, open-source solution that lets you quickly set up an AWS Cloud environment following best practices for security and efficiency.
 - [SAML2AWS](https://github.com/Versent/saml2aws): CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP.
 - [LambdaLooter](https://github.com/StateFarmIns/LambdaLooter): A tool to help reduce the amount of time it takes to review AWS Lambda code.
+- [aws-list-resources](https://github.com/welldone-cloud/aws-list-resources): A tool that uses the AWS Cloud Control API to list resources that are present in a given AWS account and region(s).
 
 ### Microsoft Azure
 
