@@ -71,6 +71,7 @@
 - [Docker Bench for Security](https://github.com/docker/docker-bench-security): A script that checks for dozens of common best-practices around deploying Docker containers in production.
 - [Inspec](https://github.com/inspec/inspec): Security and compliance testing framework with a human- and machine-readable language for comparing actual versus desired system state.
 - [KubeEye](https://github.com/kubesphere/kubeeye): Finds various problems on Kubernetes, such as application misconfiguration, unhealthy cluster components and node problems.
+- [Watchtower](https://github.com/containrrr/watchtower): A process for automating Docker container base image updates.
 
 ### Infrastructure as Code
 
