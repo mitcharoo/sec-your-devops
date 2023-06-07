@@ -1,6 +1,6 @@
 # Sec Your DevOps
 
-*Mostly* platform-agnostic tools and resources for securing your development and operations environments. See the companion AWS repository at [sec-your-aws](https://github.com/vigah/sec-your-aws).
+Tools and resources for securing your development and operations environments.
 
 - [Tools](#tools)
   - [Application Security](#application-security)
@@ -12,6 +12,17 @@
   - [Cloud Security](#cloud-security)
   - [Offensive Tools](#offensive-tools)
   - [Observability](#observability)
+- [Cloud Security](#cloud-security)
+- [Amazon Web Services](#amazon-web-services)
+  - [IAM](#aws-iam)
+  - [Secrets](#aws-secrets)
+  - [Service Configuration & Hardening](#aws-service-configuration--hardening)
+  - [Observability](#aws-observability)
+  - [CI/CD](#aws-cicd)
+  - [Offensive Tools](#aws-offensive-tools)
+  - [Training and Lab Environments](#aws-training--lab-environments)
+  - [News & Social](#aws-news--social)
+  - [Additional Resources](#aws-additional-resources)
 - [Methodology & Frameworks](#methodology--frameworks)
 - [Training](#training)
 - [News & Social](#news--social)
@@ -36,6 +47,7 @@
 - [Dastardly](https://github.com/PortSwigger/dastardly-github-action): Runs a scan using Dastardly by Burp Suite against a target site and creates a JUnit XML report for the scan on completion.
 - [hijagger](https://github.com/firefart/hijagger): Checks all maintainers of all NPM and Pypi packages for hijackable packages through domain re-registration.
 - [GuardDog](https://github.com/DataDog/guarddog): A CLI tool to identify malicious PyPI packages.
+- [Macaron](https://github.com/oracle-samples/macaron): A supply chain security analysis tool that checks conformance to the SLSA framework.
 
 ### Source Code Management
 
@@ -82,13 +94,6 @@
 - [Terraform IAM Policy Validator](https://github.com/awslabs/terraform-iam-policy-validator): A command line tool that validates AWS IAM Policies in a Terraform template against AWS IAM best practice.
 - [Pike](https://github.com/JamesWoolfenden/pike): A tool to determine the minimum permissions required for a Terraform run.
 
-### Cloud Security
-
-- [Cartography](https://github.com/lyft/cartography): A Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
-- [ScoutSuite](https://github.com/nccgroup/scoutsuite): Multi-cloud security auditing tool.
-- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
-- [Cloudlist](https://github.com/projectdiscovery/cloudlist): a tool for listing Assets from multiple Cloud Providers.
-
 ### Offensive Tools
 
 - [Stratus Red Team](https://github.com/DataDog/stratus-red-team/): Granular, actionable adversary emulation for the cloud.
@@ -98,6 +103,87 @@
 ### Observability
 
 - [DefectDojo](https://github.com/DefectDojo/django-DefectDojo): DevSecOps and vulnerability management tool.
+
+## Cloud Security
+
+- [Cartography](https://github.com/lyft/cartography): A Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database.
+- [ScoutSuite](https://github.com/nccgroup/scoutsuite): Multi-cloud security auditing tool.
+- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Rules engine for cloud security, cost optimization, and governance, DSL in yaml for policies to query, filter, and take actions on resources.
+- [Cloudlist](https://github.com/projectdiscovery/cloudlist): a tool for listing Assets from multiple Cloud Providers.
+
+### Amazon Web Services
+
+#### AWS: IAM
+
+- [SAML2AWS](https://github.com/Versent/saml2aws): CLI tool which enables you to login and retrieve AWS temporary credentials using a SAML IDP.
+- [CloudTracker](https://github.com/duo-labs/cloudtracker): Helps you find over-privileged IAM users and roles by comparing CloudTrail logs with current IAM policies.
+- [PMapper](https://github.com/nccgroup/PMapper): A tool for quickly evaluating IAM permissions in AWS.
+- [Aaia](https://github.com/rams3sh/Aaia): AWS IAM visualizer and anomaly finder.
+- [aws-sso-reporter](https://github.com/onemorepereira/aws-sso-reporter): Uses the AWS SSO API to list all users, accounts, permission sets etc. and dumps it into a CSV file for additional parsing or viewing.
+- [awspx](https://github.com/FSecureLABS/awspx): A graph-based tool for visualizing effective access and resource relationships in AWS environments.
+- [IAM Access Key Report](https://github.com/aws-samples/iam-access-key-report): A tool to enumerate data about all active IAM access keys across an AWS Organization and enrich each key with account tag information.
+
+#### AWS: Secrets
+
+- [S3cret Scanner](https://github.com/Eilonh/s3crets_scanner): A tool designed to provide a complementary layer for the Amazon S3 Security Best Practices by proactively hunting secrets in public S3 buckets.
+- [aws-vault](https://github.com/99designs/aws-vault): A vault for securely storing and accessing AWS credentials in development environments.
+
+#### AWS: Service Configuration & Hardening
+
+- [Prowler](https://github.com/prowler-cloud/prowler): Open source security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness.
+- [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke): A tool for cleaning up your AWS accounts by nuking (deleting) all resources within it.
+- [AWS Security Toolbox](https://github.com/z0ph/aws-security-toolbox): Single Docker container combining several popular security tools.
+- [CloudMapper](https://github.com/duo-labs/cloudmapper): Helps analyze your AWS environments, including auditing for security issues.
+- [aws-security-viz](https://github.com/anaynayak/aws-security-viz): Visualize your AWS security groups.
+- [s3tk](https://github.com/ankane/s3tk): A security toolkit for AWS S3.
+- [Metabadger](https://github.com/salesforce/metabadger): Automated EC2 Instance Metadata Service upgrade to v2 (IMDSv2).
+- [Remediate AWS IMDSv1](https://github.com/latacora/remediate-AWS-IMDSv1): Simple tool to identify and remediate the use of the AWS EC2 IMDSv1.
+- [ImdsPacketAnalyzer](https://github.com/aws/aws-imds-packet-analyzer): A tool that traces TCP interactions with IMDS to assist in identifying the processes making IMDSv1 calls.
+- [Sustainable Personal Accounts](https://github.com/reply-fr/sustainable-personal-accounts): Adds custom maintenance windows for AWS accounts, allowing automatic resource preparation and purging.
+- [CloudJack](https://github.com/prevade/cloudjack): Route53/CloudFront vulnerability assessment utility.
+- [CDK-Dia](https://github.com/pistazie/cdk-dia): Automated diagrams of AWS CDK provisioned infrastructure.
+- [superwerker](https://github.com/superwerker/superwerker): A free, open-source solution that lets you quickly set up an AWS Cloud environment following best practices for security and efficiency.
+- [domain-protect](https://github.com/domain-protect/domain-protect): Discover and protect against subdomain takeover vulnerabilities in AWS & Cloudflare.
+- [SCPkit](https://github.com/aquia-inc/scpkit): A Python module to manage service control policies (SCPs).
+
+#### AWS: Observability
+
+- [Security Hub Automated Response & Remediation](https://github.com/aws-solutions/aws-security-hub-automated-response-and-remediation): An add-on solution that works with AWS Security Hub to provide a ready-to-deploy architecture and a library of automated playbooks.
+- [Assisted Log Enabler](https://github.com/awslabs/assisted-log-enabler-for-aws): Find AWS resources that are not logging and turn them on.
+- [TrailScraper](https://github.com/flosell/trailscraper?ck_subscriber_id=1640233537): A command-line tool to get valuable information out of AWS CloudTrail.
+- [AWS CloudSaga](https://github.com/awslabs/aws-cloudsaga): Test security controls and alerts within AWS, using generated alerts based on security events seen by the AWS Customer Incident Response Team (CIRT).
+
+#### AWS: CI/CD
+
+- [GitHub Action: Configure AWS Credentials](https://github.com/aws-actions/configure-aws-credentials): Configure AWS credential environment variables for use in other GitHub Actions.
+
+#### AWS: Offensive Tools
+
+- [Quiet Riot](https://github.com/righteousgambit/quiet-riot): Unauthenticated enumeration of services, roles, and users in an AWS account or in every AWS account in existence.
+- [aws-list-resources](https://github.com/welldone-cloud/aws-list-resources): A tool that uses the AWS Cloud Control API to list resources that are present in a given AWS account and regions.
+- [Sandcastle](https://github.com/0xSearches/sandcastle): A Python script for AWS S3 bucket enumeration.
+- [Pacu](https://github.com/RhinoSecurityLabs/pacu): An AWS exploitation framework.
+- [LambdaLooter](https://github.com/StateFarmIns/LambdaLooter): A tool to help reduce the amount of time it takes to review AWS Lambda code.
+
+#### AWS: Training & Lab Environments
+
+- [IAM Vulnerable](https://github.com/BishopFox/iam-vulnerable): Use Terraform to create your own vulnerable by design AWS IAM privilege escalation playground.
+- [Disposable Cloud Environment](https://github.com/Optum/dce): Allows users to "lease" an AWS account for a defined period of time and with a limited budget. At the end of the lease, or if the lease's budget is reached, the account is wiped clean and returned to the account pool so it may be leased again.
+- [EC2 Metadata Mock](https://github.com/aws/amazon-ec2-metadata-mock): A tool to simulate Amazon EC2 instance metadata.
+- [LocalStack](https://github.com/localstack/localstack): Local AWS cloud emulator.
+- [S3 Game Galaxy](https://master.d2av1kz25zeu6f.amplifyapp.com/): A series of challenges to learn S3 features.
+
+#### AWS: News & Social
+
+- [AWS Security Digest](https://app.mailbrew.com/zoph/aws-security-digest-HrkhwqNrwBBk): A weekly AWS security digest by [Victor Grenu](https://twitter.com/zoph).
+- [Last Week in AWS](https://www.lastweekinaws.com/newsletter/): Snarky takes on AWS news and announcements by [Corey Quinn](https://twitter.com/QuinnyPig).
+
+#### AWS: Additional Resources
+
+- [AWS Security Blog](https://aws.amazon.com/blogs/security/): Official announcements, product highlights, and walk-throughs. Optional mailing list.
+- [AWS Customer Security Incidents](https://github.com/ramimac/aws-customer-security-incidents): A repository tracking known breaches of AWS customers.
+- [AWS Security Arsenal](https://github.com/toniblyx/my-arsenal-of-aws-security-tools): List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
+- [AWSome Pentesting Cheatsheet](https://github.com/pop3ret/AWSome-Pentesting/blob/main/AWSome-Pentesting-Cheatsheet.md): A guide to help pentesters learn more about AWS misconfigurations and ways to abuse them.
 
 ## Methodology & Frameworks
 
@@ -140,6 +226,7 @@
 - [Awesome Security Hardening](https://github.com/decalage2/awesome-security-hardening): A collection of awesome security hardening guides, tools and other resources.
 - [Awesome Container Tinkering](https://github.com/iximiuz/awesome-container-tinkering): A list of tools to tinker with containers.
 - [SSC Reading List](https://github.com/chainguard-dev/ssc-reading-list): A reading list for software supply-chain security.
+- [AWS Security Arsenal](https://github.com/toniblyx/my-arsenal-of-aws-security-tools): List of open source tools for AWS security: defensive, offensive, auditing, DFIR, etc.
 
 ## Books
 
