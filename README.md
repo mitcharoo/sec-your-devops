@@ -63,6 +63,8 @@ Tools and resources for securing your development and operations environments.
 - [Ratchet](https://github.com/sethvargo/ratchet): A tool for securing CI/CD workflows with version pinning.
 - [GitHub Actions Importer](https://github.com/github/gh-actions-importer): Helps you plan and automate the migration of Azure DevOps, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions.
 - [GroovyWaiter](https://github.com/AnubisSec/GroovyWaiter): Jenkins enumeration and remediation tool.
+- [poutine](https://github.com/boostsecurityio/poutine/): A security scanner that detects misconfigurations and vulnerabilities in the build pipelines of a repository.
+- 
 
 ### Secrets
 
@@ -209,6 +211,7 @@ Tools and resources for securing your development and operations environments.
 - [Container.Training](https://github.com/jpetazzo/container.training): Slides and code samples for training, tutorials, and workshops about Docker, containers, and Kubernetes.
 - [TerraGoat](https://github.com/bridgecrewio/terragoat): A terraformed learning and training environment that demonstrates how common configuration errors can find their way into production cloud environments. Covers AWS, Azure, and GCP.
 - [SadServers](https://sadservers.com/): A SaaS where users can test their Linux troubleshooting skills on real Linux servers in a "Capture the Flag" fashion.
+- [messy poutine](https://github.com/messypoutine): A collection of purposely vulnerable CI/CD pipelines.
 
 ## News & Social
 
