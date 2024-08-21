@@ -64,7 +64,7 @@ Tools and resources for securing your development and operations environments.
 - [GitHub Actions Importer](https://github.com/github/gh-actions-importer): Helps you plan and automate the migration of Azure DevOps, CircleCI, GitLab, Jenkins, and Travis CI pipelines to GitHub Actions.
 - [GroovyWaiter](https://github.com/AnubisSec/GroovyWaiter): Jenkins enumeration and remediation tool.
 - [poutine](https://github.com/boostsecurityio/poutine/): A security scanner that detects misconfigurations and vulnerabilities in the build pipelines of a repository.
-- 
+- [Octoscan](https://github.com/synacktiv/octoscan): A static vulnerability scanner for GitHub action workflows. 
 
 ### Secrets
 
