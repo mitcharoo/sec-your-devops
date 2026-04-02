@@ -1,4 +1,4 @@
-# Sec Your DevOps
+# [DEPRECATED] Sec Your DevOps
 
 Tools and resources for securing your development and operations environments.
 
